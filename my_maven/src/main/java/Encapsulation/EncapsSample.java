@@ -1,4 +1,6 @@
-package Override;
+package Encapsulation;
+
+import Encapsulation.EncapSample;
 
 public class EncapsSample {
 

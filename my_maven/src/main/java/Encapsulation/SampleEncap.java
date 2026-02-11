@@ -1,4 +1,4 @@
-package Override;
+package Encapsulation;
 
 public class SampleEncap {
 	
