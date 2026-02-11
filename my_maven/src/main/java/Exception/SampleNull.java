@@ -4,8 +4,8 @@ public class SampleNull {
 	
 	public void display()
 	{
-		String str= null;
-		System.out.println(str.length());
+		String a= null;
+		System.out.println(a.length());
 	}
 
 	public static void main(String[] args) {
