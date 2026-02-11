@@ -15,7 +15,7 @@ public class SampleException {
 		SampleException ob=new SampleException();
 		System.out.println("end of statemment");
 		ob.display();
-		System.out.println("end of statemment");
+		
 		
 	}
 
