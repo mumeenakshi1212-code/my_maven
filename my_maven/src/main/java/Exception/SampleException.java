@@ -5,8 +5,8 @@ public class SampleException {
 	public void display()
 	{
 		int a=10;
-		int b=a/0;
-		System.out.println(b);
+		int c=a/0;
+		System.out.println(c);
 	}
 
 	public static void main(String[] args) {
