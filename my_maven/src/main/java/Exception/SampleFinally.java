@@ -1,6 +1,6 @@
 package Exception;
 
-public class SampleException {
+public class SampleFinally {
 	
 	public void display()
 	{
@@ -9,21 +9,26 @@ public class SampleException {
 		{
 		int c=a/0;
 		System.out.println(c);
-		}
-        catch (Exception e)
+		
+        /*catch (Exception e)
 		{
         	System.out.println("exception handled");
         	System.out.println(e);
+		}*/
+		}
+		finally
+		{
+			System.out.println("finally");
 		}
 		}
 	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 
-		SampleException ob=new SampleException();
-		System.out.println("end of statemment");
+		SampleFinally ob=new SampleFinally();
 		ob.display();
 		
-		
+
+	
 	}
 
 }
