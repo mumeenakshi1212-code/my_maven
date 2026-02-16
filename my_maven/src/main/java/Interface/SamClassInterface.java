@@ -23,10 +23,7 @@ public class SamClassInterface implements SampleInterface {
 		ob.area();
 		ob.shape();
 		
-		SampleInterface ob1=new SamClassInterface();
-		ob.draw();
-		ob.area();
-		ob.shape();
+		
 	}
 
 }
