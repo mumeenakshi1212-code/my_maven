@@ -16,11 +16,17 @@ public class CollectionSampleClass {
 		al.add(25.2f);
 		System.out.println(al);
 		
+		
 		ArrayList <String> all=new ArrayList();//generic list
 		all.add("hi");
 		all.add("mrng");
 		all.add("have a nice day");
 		System.out.println(all);
+		
+		for(String a:all)
+		{
+		System.out.println(all);	
+		}
 		
 		
 		ArrayList <String> al2=new ArrayList();//generic list
